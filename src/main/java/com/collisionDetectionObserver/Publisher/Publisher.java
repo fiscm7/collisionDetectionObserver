@@ -9,6 +9,10 @@ package com.collisionDetectionObserver.Publisher;
  *
  * @author mensc
  */
-public class initial {
+public class Publisher {
+
+    //Damit der Abruf parallel abläuft, muss im Thread der Abruf alle 8 Sensoren parallel abrufen:
+    //setState(int 1, int 2, ..., int 8);
+    //So kann ich mir eine Menge arbeit sparen.
     
 }
