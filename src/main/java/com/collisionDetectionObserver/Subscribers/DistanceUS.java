@@ -9,6 +9,16 @@ package com.collisionDetectionObserver.Subscribers;
  *
  * @author mensc
  */
-public class DistanceUS {
+public class DistanceUS extends Observers{
+
+    public DistanceUS(Sensor sensor){
+        this.sensors = sensor;
+        this.sensors.attach(this);
+    }
+    
+    @Override
+    public void update() {
+        System.out.println("This is the Distance");
+    }
     
 }
