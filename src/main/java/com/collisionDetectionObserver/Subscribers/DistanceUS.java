@@ -9,6 +9,6 @@ package com.collisionDetectionObserver.Subscribers;
  *
  * @author mensc
  */
-public class initial {
+public class DistanceUS {
     
 }

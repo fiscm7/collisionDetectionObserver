@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.collisionDetectionObserver.Values;
+package com.collisionDetectionObserver.Subscribers;
 
 /**
  *
  * @author mensc
  */
-public class initial {
+public class Tilt {
     
 }
