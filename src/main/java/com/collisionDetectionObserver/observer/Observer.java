@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.collisionDetectionObserver.Worker;
+package com.collisionDetectionObserver.observer;
 
 /**
  *
  * @author mensc
  */
-public class initial {
-    
+abstract class Observer {
+
+    protected SensorData values;
+
+    public abstract void update();
+
 }
